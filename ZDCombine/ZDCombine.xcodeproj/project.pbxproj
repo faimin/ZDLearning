@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA7FFCF92C9E671900013AEF /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = DA7FFCF82C9E671900013AEF /* CombineCocoa */; };
+		DA7FFCFB2C9E678000013AEF /* CombineExt in Frameworks */ = {isa = PBXBuildFile; productRef = DA7FFCFA2C9E678000013AEF /* CombineExt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAAF114E2C9E6177009FFB2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAAF112F2C9E6174009FFB2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAAF11362C9E6174009FFB2F;
+			remoteInfo = ZDCombine;
+		};
+		DAAF11582C9E6178009FFB2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAAF112F2C9E6174009FFB2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAAF11362C9E6174009FFB2F;
+			remoteInfo = ZDCombine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAAF11372C9E6174009FFB2F /* ZDCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAAF114D2C9E6177009FFB2F /* ZDCombineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDCombineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAAF11572C9E6178009FFB2F /* ZDCombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDCombineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DAAF115F2C9E6178009FFB2F /* Exceptions for "ZDCombine" folder in "ZDCombine" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DAAF11362C9E6174009FFB2F /* ZDCombine */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DAAF11392C9E6174009FFB2F /* ZDCombine */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DAAF115F2C9E6178009FFB2F /* Exceptions for "ZDCombine" folder in "ZDCombine" target */,
+			);
+			path = ZDCombine;
+			sourceTree = "<group>";
+		};
+		DAAF11502C9E6177009FFB2F /* ZDCombineTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZDCombineTests;
+			sourceTree = "<group>";
+		};
+		DAAF115A2C9E6178009FFB2F /* ZDCombineUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZDCombineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAAF11342C9E6174009FFB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7FFCFB2C9E678000013AEF /* CombineExt in Frameworks */,
+				DA7FFCF92C9E671900013AEF /* CombineCocoa in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAF114A2C9E6177009FFB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAF11542C9E6178009FFB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAAF112E2C9E6174009FFB2F = {
+			isa = PBXGroup;
+			children = (
+				DAAF11392C9E6174009FFB2F /* ZDCombine */,
+				DAAF11502C9E6177009FFB2F /* ZDCombineTests */,
+				DAAF115A2C9E6178009FFB2F /* ZDCombineUITests */,
+				DAAF11382C9E6174009FFB2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAAF11382C9E6174009FFB2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAAF11372C9E6174009FFB2F /* ZDCombine.app */,
+				DAAF114D2C9E6177009FFB2F /* ZDCombineTests.xctest */,
+				DAAF11572C9E6178009FFB2F /* ZDCombineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAAF11362C9E6174009FFB2F /* ZDCombine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAAF11602C9E6178009FFB2F /* Build configuration list for PBXNativeTarget "ZDCombine" */;
+			buildPhases = (
+				DAAF11332C9E6174009FFB2F /* Sources */,
+				DAAF11342C9E6174009FFB2F /* Frameworks */,
+				DAAF11352C9E6174009FFB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DAAF11392C9E6174009FFB2F /* ZDCombine */,
+			);
+			name = ZDCombine;
+			packageProductDependencies = (
+				DA7FFCF82C9E671900013AEF /* CombineCocoa */,
+				DA7FFCFA2C9E678000013AEF /* CombineExt */,
+			);
+			productName = ZDCombine;
+			productReference = DAAF11372C9E6174009FFB2F /* ZDCombine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAAF114C2C9E6177009FFB2F /* ZDCombineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAAF11652C9E6178009FFB2F /* Build configuration list for PBXNativeTarget "ZDCombineTests" */;
+			buildPhases = (
+				DAAF11492C9E6177009FFB2F /* Sources */,
+				DAAF114A2C9E6177009FFB2F /* Frameworks */,
+				DAAF114B2C9E6177009FFB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAAF114F2C9E6177009FFB2F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DAAF11502C9E6177009FFB2F /* ZDCombineTests */,
+			);
+			name = ZDCombineTests;
+			packageProductDependencies = (
+			);
+			productName = ZDCombineTests;
+			productReference = DAAF114D2C9E6177009FFB2F /* ZDCombineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAAF11562C9E6178009FFB2F /* ZDCombineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAAF11682C9E6178009FFB2F /* Build configuration list for PBXNativeTarget "ZDCombineUITests" */;
+			buildPhases = (
+				DAAF11532C9E6178009FFB2F /* Sources */,
+				DAAF11542C9E6178009FFB2F /* Frameworks */,
+				DAAF11552C9E6178009FFB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAAF11592C9E6178009FFB2F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DAAF115A2C9E6178009FFB2F /* ZDCombineUITests */,
+			);
+			name = ZDCombineUITests;
+			packageProductDependencies = (
+			);
+			productName = ZDCombineUITests;
+			productReference = DAAF11572C9E6178009FFB2F /* ZDCombineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAAF112F2C9E6174009FFB2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					DAAF11362C9E6174009FFB2F = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					DAAF114C2C9E6177009FFB2F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DAAF11362C9E6174009FFB2F;
+					};
+					DAAF11562C9E6178009FFB2F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DAAF11362C9E6174009FFB2F;
+					};
+				};
+			};
+			buildConfigurationList = DAAF11322C9E6174009FFB2F /* Build configuration list for PBXProject "ZDCombine" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAAF112E2C9E6174009FFB2F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DAAF116B2C9E6414009FFB2F /* XCRemoteSwiftPackageReference "CombineCocoa" */,
+				DAB45E292C9E64AC00C756DD /* XCRemoteSwiftPackageReference "CombineExt" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DAAF11382C9E6174009FFB2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAAF11362C9E6174009FFB2F /* ZDCombine */,
+				DAAF114C2C9E6177009FFB2F /* ZDCombineTests */,
+				DAAF11562C9E6178009FFB2F /* ZDCombineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAAF11352C9E6174009FFB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAF114B2C9E6177009FFB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAF11552C9E6178009FFB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAAF11332C9E6174009FFB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAF11492C9E6177009FFB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAF11532C9E6178009FFB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAAF114F2C9E6177009FFB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAAF11362C9E6174009FFB2F /* ZDCombine */;
+			targetProxy = DAAF114E2C9E6177009FFB2F /* PBXContainerItemProxy */;
+		};
+		DAAF11592C9E6178009FFB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAAF11362C9E6174009FFB2F /* ZDCombine */;
+			targetProxy = DAAF11582C9E6178009FFB2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAAF11612C9E6178009FFB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZDCombine/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zero.ZDCombine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAAF11622C9E6178009FFB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZDCombine/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zero.ZDCombine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAAF11632C9E6178009FFB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAAF11642C9E6178009FFB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAAF11662C9E6178009FFB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zero.ZDCombineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDCombine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZDCombine";
+			};
+			name = Debug;
+		};
+		DAAF11672C9E6178009FFB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zero.ZDCombineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDCombine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZDCombine";
+			};
+			name = Release;
+		};
+		DAAF11692C9E6178009FFB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zero.ZDCombineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZDCombine;
+			};
+			name = Debug;
+		};
+		DAAF116A2C9E6178009FFB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zero.ZDCombineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZDCombine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAAF11322C9E6174009FFB2F /* Build configuration list for PBXProject "ZDCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAAF11632C9E6178009FFB2F /* Debug */,
+				DAAF11642C9E6178009FFB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAAF11602C9E6178009FFB2F /* Build configuration list for PBXNativeTarget "ZDCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAAF11612C9E6178009FFB2F /* Debug */,
+				DAAF11622C9E6178009FFB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAAF11652C9E6178009FFB2F /* Build configuration list for PBXNativeTarget "ZDCombineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAAF11662C9E6178009FFB2F /* Debug */,
+				DAAF11672C9E6178009FFB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAAF11682C9E6178009FFB2F /* Build configuration list for PBXNativeTarget "ZDCombineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAAF11692C9E6178009FFB2F /* Debug */,
+				DAAF116A2C9E6178009FFB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAAF116B2C9E6414009FFB2F /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+		DAB45E292C9E64AC00C756DD /* XCRemoteSwiftPackageReference "CombineExt" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineExt";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA7FFCF82C9E671900013AEF /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAAF116B2C9E6414009FFB2F /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+		DA7FFCFA2C9E678000013AEF /* CombineExt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAB45E292C9E64AC00C756DD /* XCRemoteSwiftPackageReference "CombineExt" */;
+			productName = CombineExt;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DAAF112F2C9E6174009FFB2F /* Project object */;
+}
