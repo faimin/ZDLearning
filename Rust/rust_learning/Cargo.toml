@@ -1,0 +1,12 @@
+[package]
+name = "rust_learning"
+version = "0.1.0"
+authors = ["faimin <fuxianchao@gmail.com>"]
+edition = "2024"
+
+# [build]
+# rustc-wrapper = "/usr/local/bin/sccache"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
