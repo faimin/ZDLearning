@@ -49,7 +49,7 @@ impl Solution {
 
     //121
     pub fn max_profit(prices: Vec<i32>) -> i32 {
-        let mut max_profit = 0_i32;
+        let max_profit = 0_i32;
         let mut min_price = prices[0];
         let mut max_price = prices[0];
         for item in prices {
